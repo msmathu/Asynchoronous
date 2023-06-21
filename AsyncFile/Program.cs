@@ -8,7 +8,7 @@ class Program
         var result1 =await LongProcess1();
 
 
-        //int val = await result1;
+        //int val = await result1;  
         //DisplayResult(val);
 
         var result2 = LongProcess2();
@@ -40,6 +40,16 @@ class Program
         await Task.Delay(4000); // hold  4 seconds
 
         Console.WriteLine("LongProcess 2 Completed");
+
+        return 20;
+    }
+    static async Task<int> LongProcess3()
+    {
+        Console.WriteLine("LongProcess 3 Started");
+
+        await Task.Delay(4000); // hold  4 seconds
+
+        Console.WriteLine("LongProcess 3 Completed");
 
         return 20;
     }
