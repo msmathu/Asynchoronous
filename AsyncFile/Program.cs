@@ -19,6 +19,11 @@ class Program
         //val = await result2;
         //DisplayResult(val);
 
+        var result4 = LongProcess4();
+
+        int val = await result4;
+        DisplayResult(val);
+
         Console.ReadKey();
     }
 
@@ -40,6 +45,17 @@ class Program
         await Task.Delay(4000); // hold  4 seconds
 
         Console.WriteLine("LongProcess 2 Completed");
+
+        return 20;
+    }
+
+    static async Task<int> LongProcess4()
+    {
+        Console.WriteLine("LongProcess 4 Started");
+
+        await Task.Delay(4000); // hold  4 seconds
+
+        Console.WriteLine("LongProcess 4 Completed");
 
         return 20;
     }
