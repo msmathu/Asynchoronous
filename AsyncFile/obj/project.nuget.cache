@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oBiV0GEjae7xtNKcwHELOngL0eQhPxZEohKCogMlCSO4U8qZxBxk9GVNkXBiKePW5rM++kUaOgf660ywVUZxeg==",
+  "dgSpecHash": "tlSdQWrDbANym1keh6SjsEaqWrAMjJ30pZ4Ym065Bv2/6qGChlQMFpBgXpyWTDAasyFE798v0WXJvWJPMT5tlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\madhusuthananm\\source\\repos\\AsyncFile\\AsyncFile\\AsyncFile.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\madhusuthananm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\madhusuthananm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\madhusuthananm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\madhusuthananm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\sriramanr\\Source\\Repos\\Asynchoronous\\AsyncFile\\AsyncFile.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
